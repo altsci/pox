@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <title>pox</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+margin: 0;
+  background: #343434 url("THE BACKGROUND") repeat 0 0;
+font-family: 'Verdana', sans-serif;
+color: #000;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+width: 98%;
+gap: 0;
+margin-top: -20px;
+}
+
+.headerwrapper{
+height: 50px;
+display: flex;
+flex-direction: row;
+position: relative;
+top: 20px;
+}
+
+.header{
+flex-basis: 100%;
+background-image: url('HEADER BACKGROUND');
+background-position: bottom left;
+background-repeat: no-repeat;
+display: flex;
+}
+
+.header h1{
+align-self: center;
+margin: 0 auto;
+color: white;
+font-size: 90px;
+font-family: 'Verdana', serif;
+text-shadow: 0px 0px 10px #FFF;
+}
+
+.boxwrapper{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+padding-left: 1rem;
+padding-bottom: 1rem;
+position: relative;
+z-index: 1;
+}
+
+.sidebars{
+min-width: 100px;
+flex-basis: 15%;
+margin-top: 40px;
+margin-left: 200px;
+}
+
+.sideheaders{
+background-color:;
+font-weight: normal;
+color: #fff;
+font-size: 16px;
+}
+
+.middleheaders{
+background-color:;
+font-weight: normal;
+color: white;
+font-size: 20px;
+text-align: center;
+border-radius: 15px 15px 0px 0px;
+margin-bottom: 5px;
+}
+
+.sidebox{
+padding: 8px 3px 8px 3px;
+font-size: 14px;
+letter-spacing: 1px;
+color:#fff;
+}
+
+.sidebars ul{
+padding: 0;
+}
+
+.sidebars li{
+list-style-type: none;
+margin-bottom: 6px;
+}
+
+.sidebars a{
+color: #fff;
+}
+
+.sidebars a:visited{
+color: #fff;
+}
+
+.sidebars a:active{
+font-style: italic;
+}
+
+.main{
+flex-basis: 60%;
+min-width: 250px;
+max-width: 550px;
+margin:auto;
+padding: 40px;
+background-color: #000;
+color:#fff;
+border: 4px #220000;
+border-radius: 0px 65px 0px 65px;
+font-size: 14px;
+}
+
+.section{
+margin-bottom: 14px;
+margin-top: 14px;
+}
+
+#credit a{
+color: #000;
+}
+
+a{
+color: #fff;
+text-decoration: none;
+}
+
+a:visited{
+color: #fff;
+text-decoration: line-through;
+}
+
+a:hover{
+font-style: italic;
+}
+
+a:active{
+font-style: italic;
+}
+
+::-webkit-scrollbar{
+width: 8px; 
+}
+    
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #000;
+}
+
+#credit{
+font-size: 9px;
+position: fixed;
+bottom: 0;
+right: 0;
+}
+
+@media(max-width:500px){
+.headerwrapper{
+height: 268px;
+position: relative;
+top: 0px;
+}
+.header{
+background-size: 100%;
+background-position: top left;
+}
+.header h1{
+font-size: 40px;
+align-self: center;
+padding-left: 1em;
+}
+.container{
+width: 100%;
+margin-top: 0;
+}
+.boxwrapper{
+display: flex;
+flex-direction: column;
+padding-left: 1em;
+padding-right: 1em;
+}
+.boxes{
+min-width: 100%;
+}
+.sidebox{
+text-align: center;
+}
+.sidebars{
+margin-top: 0;
+}
+.sidebars li{
+display: inline;
+margin: 0;
+border: none;
+}
+}
+
+@media(max-width:400px){
+.header h1{
+padding-left: 1.5em;
+}
+}
+
+blockquote {
+  background: #161616;
+  color: #444;
+  font-style: italic;
+  border-left: none;
+  padding: 0.5em 0.5em 0.5em 1em;
+  border-radius: 20px 3px 20px 3px;
+  margin: 1em;
+  }
+  
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="headerwrapper">
+<div class="header">
+</div>
+</div>
+<left>
+<div class="boxwrapper">
+
+<!-- SIDEBAR LEFT -->
+<div class="boxes sidebar sidebars">
+
+<!-- NAV -->
+<div class="nav">
+<h3 class="sideheaders"></h3>
+<div class="sidebox">
+<center><ul>
+<li><a href="">Refresh</a></li>
+<li><a href="/">[Home]</a></li>
+<li><a href="/nav">Navigate</a></li>
+<li><a href="/exit">Leave</a></li>
+</ul></center>
+</div>
+</div>
+
+<!-- SIDEBAR LEFT BOX 2 -->
+<h3 class="sideheaders"><hr></h3>
+<div class="sidebox">
+<center>centered stuff</div>
+
+<!-- SIDEBAR LEFT BOX 3 -->
+<h3 class="sideheaders"><hr></h3>
+<div class="sidebox">
+        <P>AHHH STUFF GOES HERE TOO
+</div>
+</center>
+</div>
+
+<!-- MIDDLE BOX -->
+<div class="boxes main">
+
+<!-- SECTION 1 -->
+<div class="section">
+<h3 class="middleheaders">HEADER</h3>
+        <p>WEB PAGE WEB PAGE WEB PAGE</center>
+</div>
+
+<!-- SECTION 2 -->
+<div class="section">
+<h3 class="middleheaders"><hr></h3>
+<blockquote><center>
+          <p>IM ANOTHER THING
+       </center> </blockquote>
+</div>
+
+<!-- SECTION 3 -->
+<div class="section">
+<h3 class="middleheaders"><hr></h3>
+<p><center>im anoter THIRHRHDHD THING</center>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
+
+</body>
+
+</html>
